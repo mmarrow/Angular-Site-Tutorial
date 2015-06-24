@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+
+<head>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body ng-app="tutorialWebApp">
+
+<!-- Our Website Content Goes Here -->
+<div ng-include="templates/header.html"></div>
+<div ng-view></div>
+<div ng-include="templates/footer.html"></div>
+
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+    
+<script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+</script>
+    
+    
+<!-- Our Website Javascripts -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
