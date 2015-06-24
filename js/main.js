@@ -40,6 +40,8 @@ app.config(['$routeProvider', function ($routeProvider) {
             controller: "PageCtrl"
         });
 }]);
+
+
 /**
  * Controls the Blog
  */
